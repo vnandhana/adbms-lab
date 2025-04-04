@@ -1,0 +1,10 @@
+select * from customer;
+select * from product;
+select pname, price from product;
+select distint p_id from invoice _item;
+insert into invoice_item values(11,201,150);
+insert into invoice_item values(12,302,170);
+insert into invoice_item values(11,201,150);
+select * from invoice_item;
+select distint p_id from invoice _item;
+select price from product where price between 5 and 50; 
